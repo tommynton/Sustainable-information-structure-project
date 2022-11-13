@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -7,14 +7,10 @@
         <title>Data Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
         <link href="styles.css" rel="stylesheet" type="text/css">
         
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
         <header>
             <div class="nav">
                 <nav>
@@ -44,9 +40,9 @@
                 <p>You should already be familiar with:</p>
                 <ul>
                     <li>The basic functions and tools of Excel</li>
-                    <li><blue>Descriptive statistics</blue> and <blue>inferential statistics</blue></li>
-                    <li>Research design and how to identify <blue>independent variables</blue> and 
-                        <blue>dependent variables</blue></li>
+                    <li><b>Descriptive statistics</b> and <b>inferential statistics</b></li>
+                    <li>Research design and how to identify <b>independent variables</b> and 
+                        <b>dependent variables</b></li>
                 </ul>
             </aside>
             <p>This short lesson is intended for graduate and advanced undergraduate students 
@@ -66,7 +62,7 @@
                 in the first row of each column.</p>
             <ol>
                 <li>Each variable name must be different from other variable names.</li>
-                <li>The first variable (in column A) is a <blue>unique identifier.</blue></li>
+                <li>The first variable (in column A) is a <b>unique identifier.</b></li>
                 <li>Variable names must start with a letter (not numbers or special 
                     characters), so change <em>4tutorial_types</em> to <em>tutorial_types</em>.</li>
                 <li>Name variables so that they are intuitive to you. Therefore, change 
@@ -77,7 +73,7 @@
                     Column G refers to <em>Perceived Ease of Use.</em></li>
             </ol>
             <figure class='image'>
-                <img src="illustrations/datalesson_fig3.png" alt="datalesson_fig3"/>
+                <img src="illustrations/datalesson_fig3.png" alt="datalesson_fig3">
                 <figcaption>Tutorial type, gender, experience, and task categorical values 
                     have been formatted as dichotomous variables.</figcaption>
             </figure>
@@ -94,12 +90,12 @@
                 <li>Your Raw_Dataset spreadsheet should now look like Figure 2.</li>
             </ol>
             <figure class='image'>
-                <img src="illustrations/datalesson_fig2.png" alt="datalesson_fig2"/>
+                <img src="illustrations/datalesson_fig2.png" alt="datalesson_fig2">
                 <figcaption>Values for each variable are entered in a consistent format.</figcaption>
             </figure>
             <p>Replace categorical data values with "0" or "1" (0=no, 1=yes) to indicate 
                 whether or not the value is represented for the given subject/item. This 
-                makes the categorical values <blue>dichotomous</blue>, which gives the 
+                makes the categorical values <b>dichotomous</b>, which gives the 
                 researcher maximum flexibility in testing for relationships or correlations.</p>
             <aside>
                 <p>Dichotomous variables allow for the easy isolation of characteristics 
@@ -116,13 +112,14 @@
                     data columns (<em>tutorial_types, gender, exp_level, task1, task2,</em> 
                     and <em>task3</em>). You do not have to add a new column for task1, task2, 
                     and task3 because their values are already dichotomous.</li>
-                <li>Rename columns according to each possible categorical value. Copy and paste the values from the original column.</li>
+                <li>Rename columns according to each possible categorical value. Copy and paste the values from the original 
+                    column.</li>
                 <li>Replace dichotomous data values with "0" or "1" (0=no, 1=yes) using the 
                     replace function: <strong>Edit > Replace.</strong></li>
                 <li>Your Formatted_Data spreadsheet should now look like Figure 3.</li>
             </ol>
             <figure class='image'>
-                <img src="illustrations/datalesson_fig3 (1).png" alt="datalesson_fig3 (1)"/>
+                <img src="illustrations/datalesson_fig3&nbsp;(1).png" alt="datalesson_fig3 (1)">
                 <figcaption>Tutorial type, gender, experience, and task categorical values 
                     have been formatted as dichotomous variables.</figcaption>
             </figure>
@@ -133,7 +130,10 @@
                     also has a large variance. This suggests that a segment of users may not 
                     have considered the system useful even though they enjoyed using it.</p>
             </aside>
-            <p>Run descriptive (summary) statistics on the dataset and output results in a new spreadsheet. If necessary, rearrange columns so that data requiring summary, those with <blue>continuous</blue> values, are adjacent. (In the spreadsheet, the continuous values of <em>perc_enjoy, perc_usefulness</em>, and <em>perc_ease_of_use</em> are already adjacent.)</p>
+            <p>Run descriptive (summary) statistics on the dataset and output results in a new spreadsheet. 
+                If necessary, rearrange columns so that data requiring summary, those with <b>continuous</b> 
+                values, are adjacent. (In the spreadsheet, the continuous values of <em>perc_enjoy, perc_usefulness</em>, 
+                and <em>perc_ease_of_use</em> are already adjacent.)</p>
             <p>Write down the "input range" (i.e. H2:J26) of the data requiring summary, 
                 making sure not to include variable labels.</p>
             <ol>
@@ -147,7 +147,7 @@
                 should now look like Figure 4.</p> 
             <p>Analyzing descriptive statistics is a great way to start appraising a dataset before running inferential statistics. What insights about the dataset can you glean from the summary statistics for <em>perc_usefulness</em> and <em>perc_ease_of_use</em>?</p>
             <figure class='image'>
-                <img src="illustrations/datalesson_fig4.png" alt="datalesson_fig4"/>
+                <img src="illustrations/datalesson_fig4.png" alt="datalesson_fig4">
                 <figcaption>Excel will not run descriptive statistics with non-numeric 
                     characters, so the variable labels must be re-entered.</figcaption>
             </figure>
@@ -172,7 +172,7 @@
                 <li>Non-parametric correlation</li>
             </ol>
             <figure class='image'>
-                <img src="illustrations/datalesson_fig5.png" alt="datalesson_fig5"/>
+                <img src="illustrations/datalesson_fig5.png" alt="datalesson_fig5">
                 <figcaption>Don't assume PASW doesn't run a given test. Many are located 
                     under broader statistical classifications.</figcaption>
             </figure>
@@ -203,7 +203,7 @@
                     Continue.</li>
             </ol>
             <figure class='image'>
-                <img src="illustrations/datalesson_fig6.png" alt="datalesson_fig6"/>
+                <img src="illustrations/datalesson_fig6.png" alt="datalesson_fig6">
                 <figcaption>For Kruskal-Wallis, an independent (free_play) and a dependent 
                     variable (perc_usefulness) are selected.</figcaption>
             </figure>
@@ -214,7 +214,7 @@
                 PASW software. To save the results, go to <strong>File > Export</strong>. Change Document Type 
                 to the desired output format (Word, Excel, PDF, etc.), then click OK.</p>
             <figure class='image'>
-                <img src="illustrations/datalesson_fig7.png" alt="datalesson_fig7"/>
+                <img src="illustrations/datalesson_fig7.png" alt="datalesson_fig7">
                 <figcaption>PASW allows users to export statistics to common document types.</figcaption>
             </figure>
             <h3>Test your knowledge</h3>
@@ -222,6 +222,5 @@
                 your understanding of formatting research datasets for comprehensive 
                 statistical analysis.</p>
         </div>
-        <script src="" async defer></script>
     </body>
 </html>
